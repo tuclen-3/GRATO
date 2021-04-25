@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thongnp.iml" filepath="$PROJECT_DIR$/.idea/modules/thongnp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/thongnp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/thongnp.app.iml" />
+    </modules>
+  </component>
+</project>

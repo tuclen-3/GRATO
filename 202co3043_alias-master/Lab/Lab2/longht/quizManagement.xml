@@ -1,0 +1,296 @@
+<!-- Add button -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/add_button"
+android:layout_width="60dp"
+android:layout_height="60dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="275dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="534dp"
+android:clipToOutline="true"
+android:background="@drawable/add_button"
+ />
+
+
+<!-- drawable/add_button.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="60dp"
+android:height="60dp"
+android:viewportWidth="60"
+android:viewportHeight="60"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M30 0C46.5685 0 60 13.4315 60 30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30C0 13.4315 13.4315 0 30 0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- View pager -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/view_pager"
+android:layout_width="361dp"
+android:layout_height="49dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="-1dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="40dp"
+android:background="@drawable/view_pager"
+ />
+
+
+<!-- drawable/view_pager.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="361dp"
+android:height="49dp"
+android:viewportWidth="361"
+android:viewportHeight="49"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H361V49H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Tool bar -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/tool_bar"
+android:layout_width="360dp"
+android:layout_height="64dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="@drawable/tool_bar"
+android:elevation="4dp"
+ />
+
+
+<!-- drawable/tool_bar.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="360dp"
+android:height="64dp"
+android:viewportWidth="360"
+android:viewportHeight="64"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H360V64H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- arrow_back-white-18dp 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/arrow_back_"
+android:layout_width="25dp"
+android:layout_height="25dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="13dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-5dp"
+android:clipToOutline="true"
+android:background="@drawable/arrow_back_"
+ />
+
+
+<!-- drawable/arrow_back_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="25dp"
+android:height="25dp"
+android:viewportWidth="25"
+android:viewportHeight="25"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H25V25H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- list quiz -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/list_quiz"
+android:layout_width="328dp"
+android:layout_height="94dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="15dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="215dp"
+android:background="@drawable/list_quiz"
+ />
+
+
+<!-- drawable/list_quiz.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="328dp"
+android:height="94dp"
+android:viewportWidth="328"
+android:viewportHeight="94"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H328V94H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- list quiz -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/list_quiz"
+android:layout_width="328dp"
+android:layout_height="94dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="15dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="103dp"
+android:background="@drawable/list_quiz"
+ />
+
+
+<!-- drawable/list_quiz.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="328dp"
+android:height="94dp"
+android:viewportWidth="328"
+android:viewportHeight="94"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H328V94H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Line 1 -->
+<View
+android:id="@+id/line_1"
+android:layout_width="179.01dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="-0.01dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="90dp"
+android:background="@drawable/line_1"
+ />
+
+
+<!-- drawable/line_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="180.51dp"
+android:height="1.5dp"
+android:viewportWidth="180.51"
+android:viewportHeight="1.5"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.75 0.75H179.758H0.75Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.75 0.75H179.758H0.75Z"
+android:strokeWidth="1.5"
+android:strokeColor="#FA003C"
+/>
+
+</vector>
+
+
+
+<!-- Lớp 1 -->
+<TextView
+android:id="@+id/l_p_1"
+android:layout_width="63dp"
+android:layout_height="29dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="52dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-7dp"
+android:text="@string/l_p_1"
+android:textAppearance="@style/l_p_1"
+android:gravity="center_horizontal|center_vertical"
+ />
+
+<!--
+  Font family: Roboto
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="l_p_1">
+
+<item name="android:textSize">
+25sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="l_p_1">
+
+L\u00E1\u00BB\u009Bp 1
+</string>

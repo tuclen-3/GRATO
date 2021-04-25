@@ -1,0 +1,508 @@
+<!-- Rectangle 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/rectangle_1"
+android:layout_width="414dp"
+android:layout_height="154dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-23dp"
+android:background="@drawable/rectangle_1"
+ />
+
+
+<!-- drawable/rectangle_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="154dp"
+android:viewportWidth="414"
+android:viewportHeight="154"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V154H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- left-arrow 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/left_arrow_"
+android:layout_width="40dp"
+android:layout_height="48dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="14dp"
+android:clipToOutline="true"
+android:background="@drawable/left_arrow_"
+ />
+
+
+<!-- drawable/left_arrow_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="40dp"
+android:height="48dp"
+android:viewportWidth="40"
+android:viewportHeight="48"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H40V48H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Printing text -->
+<TextView
+android:id="@+id/printing_te"
+android:layout_width="184dp"
+android:layout_height="34dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="72dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="20dp"
+android:text="@string/printing_te"
+android:textAppearance="@style/printing_te"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Ubuntu
+  Line height: 34sp
+-->
+<!-- styles.xml -->
+<style name="printing_te">
+
+<item name="android:textSize">
+30sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="printing_te">
+
+Printing text
+</string>
+
+
+
+
+<!-- PROBLEM -->
+<TextView
+android:id="@+id/problem"
+android:layout_width="87dp"
+android:layout_height="21dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="14dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="89dp"
+android:text="@string/problem"
+android:textAppearance="@style/problem"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Ubuntu
+  Line height: 21sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="problem">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="problem">
+
+PROBLEM
+</string>
+
+
+
+
+<!-- CODE -->
+<TextView
+android:id="@+id/code"
+android:layout_width="50dp"
+android:layout_height="21dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="182dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="88dp"
+android:text="@string/code"
+android:textAppearance="@style/code"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Ubuntu
+  Line height: 21sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="code">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="code">
+
+CODE
+</string>
+
+
+
+
+<!-- Rectangle 2 -->
+<View
+android:id="@+id/rectangle_2"
+android:layout_width="129dp"
+android:layout_height="5dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="285dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="125dp"
+android:background="@drawable/rectangle_2"
+ />
+
+
+<!-- drawable/rectangle_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="129dp"
+android:height="5dp"
+android:viewportWidth="129"
+android:viewportHeight="5"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H129V5H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V5H129V0"
+android:fillColor="#24B74D"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- RESULT -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/result"
+android:layout_width="66dp"
+android:layout_height="41dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="313dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="90dp"
+android:background="@drawable/result"
+ />
+
+
+<!-- drawable/result.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="66dp"
+android:height="41dp"
+android:viewportWidth="66"
+android:viewportHeight="41"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H66V41H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Rectangle 7 -->
+<View
+android:id="@+id/rectangle_7"
+android:layout_width="414dp"
+android:layout_height="169dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="1dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="707dp"
+android:background="@drawable/rectangle_7"
+ />
+
+
+<!-- drawable/rectangle_7.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="414dp"
+android:height="169dp"
+android:viewportWidth="414"
+android:viewportHeight="169"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H414V169H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V169H414V0"
+android:fillColor="#FFFFFF"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- Awesome! -->
+<TextView
+android:id="@+id/awesome_"
+android:layout_width="118dp"
+android:layout_height="28dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="149dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="726dp"
+android:text="@string/awesome_"
+android:textAppearance="@style/awesome_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Ubuntu
+  Line height: 28sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="awesome_">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="awesome_">
+
+Awesome!
+</string>
+
+
+
+
+<!-- You have solved the challenge! -->
+<TextView
+android:id="@+id/you_have_so"
+android:layout_width="251dp"
+android:layout_height="21dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="82dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="771dp"
+android:text="@string/you_have_so"
+android:textAppearance="@style/you_have_so"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Ubuntu
+  Line height: 21sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="you_have_so">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="you_have_so">
+
+You have solved the challenge!
+</string>
+
+
+
+
+<!-- Frame 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/frame_1"
+android:layout_width="297dp"
+android:layout_height="49dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="57dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="800dp"
+android:background="@drawable/frame_1"
+ />
+
+
+<!-- drawable/frame_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="297dp"
+android:height="49dp"
+android:viewportWidth="297"
+android:viewportHeight="49"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H297V49H0V0Z"
+/>
+
+</group>
+
+</vector>
+
+
+
+<!-- CONTINUE -->
+<TextView
+android:id="@+id/continue"
+android:layout_width="94dp"
+android:layout_height="21dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="161dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="814dp"
+android:text="@string/continue"
+android:textAppearance="@style/continue"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Ubuntu
+  Line height: 21sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="continue">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="continue">
+
+CONTINUE
+</string>
+
+
+
+
+<!-- Component 1 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/component_1"
+android:layout_width="388dp"
+android:layout_height="463dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="11dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="151dp"
+android:background="@drawable/component_1"
+ />
+
+
+<!-- drawable/component_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="388dp"
+android:height="463dp"
+android:viewportWidth="388"
+android:viewportHeight="463"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H388V463H0V0Z"
+/>
+
+</group>
+
+</vector>
